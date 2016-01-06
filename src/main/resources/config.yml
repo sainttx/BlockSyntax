@@ -1,0 +1,5 @@
+# BlockSyntax by SainttX
+
+invalidCommandMessage: "Unknown command. Type \"help\" for help."
+whitelistedPlugins:
+- "worldguard"

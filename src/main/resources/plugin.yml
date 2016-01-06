@@ -1,0 +1,4 @@
+name: ${project.name}
+version: ${project.version}
+main: com.sainttx.blocksyntax.BlockSyntax
+description: Blocks the usage of /<plugin>:<command>
