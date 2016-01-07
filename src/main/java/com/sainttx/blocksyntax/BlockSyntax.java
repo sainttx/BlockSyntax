@@ -14,6 +14,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class BlockSyntax extends JavaPlugin implements Listener {
 
+    private final Pattern p = Pattern.compile("^/([a-zA-Z0-9_]+):");
     private String invalidCommandMessage;
     private Set<String> whitelistedPlugins = new TreeSet<>(String.CASE_INSENSITIVE_ORDER);
 
@@ -27,7 +28,6 @@ public class BlockSyntax extends JavaPlugin implements Listener {
 
     @EventHandler
     public void onPlayerCommandPreprocess(PlayerCommandPreprocessEvent e) {
-        Pattern p = Pattern.compile("^/([a-zA-Z0-9_]+):");
         Matcher m = p.matcher(e.getMessage());
         String pluginRef;
 

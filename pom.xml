@@ -6,7 +6,7 @@
 
     <groupId>com.sainttx</groupId>
     <artifactId>blocksyntax</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.1.0-SNAPSHOT</version>
 
     <name>BlockSyntax</name>
     <description>Blocks the usage of &lt;plugin&gt;:&lt;command&gt;</description>
